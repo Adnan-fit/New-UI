@@ -1,0 +1,34 @@
+/* RightDrawer.module.css */
+.RightDrawer {
+  width: 25rem;
+  height: 100%;
+  right: 0;
+  background-color: ghostwhite;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: none;
+  padding: 0;
+  transition: left 0.3s ease;
+  /* Apply a smooth transition for the left property */
+}
+
+/* .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+/* .RightDrawer--open {
+  left: 0;
+} */
+
+.cancelButton {
+  background-color: #ccc;
+  padding: 10px 15px;
+  margin: 10px -50px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background-color: #bbb;
+}
